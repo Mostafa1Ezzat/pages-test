@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <style>
+
+        body{
+    margin: 0;
+    font-family: 'cairo';
+    text-transform: capitalize;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 1fr;
+
+      box-sizing: border-box;
+}
+
+.header{
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.footer{
+    background-color: chocolate;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0 20px;
+    border-bottom: 1px solid #8240241b;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.brand{
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.brand a:hover{
+     filter: brightness(120%);
+     color: #824024;
+     transform: scale(1.5);
+     transition: 0.3s ease;
+}
+
+.list a{
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.list a:hover{
+    transition: 0.3s ease;
+    filter: brightness(120%);
+     color: #824024;
+     
+}
+
+.about{
+    color: #824024;
+}
+
+
+.center{
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    border-bottom:1px solid hsla(0, 0%, 42%, 0);
+}
+
+
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img:hover{
+     transform: scale(0.99);
+     transition: 0.5s ease;
+}
+
+.dt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 100px 0 50px;
+    font-size: 10px;
+    max-width: 70%;
+    position: relative;
+}
+
+.dt h1:hover{
+    transition: 0.5s ease;
+    color: #824024;
+}
+
+.ti{
+    font-size: 50px;
+    margin-top: 0;
+}
+.ti:hover{
+    transform: scale(1.00);
+    transition: 0.5s ease;
+    /* color: #824024; */
+}
+
+
+
+
+    </style>
+</head>
+<body>
+        
+        
+    <div class="container">
+
+        <div class="header">
+
+           <div class="brand">
+               <a href="main.html">INANCE
+               </a>
+           </div>
+
+           <div class="list">
+               <a href="main.html">Home</a>
+               <a href="">Services</a>
+               <a class="about" style="color: #824024; font-weight: bolder;" href="">About</a>
+               <a href="">Contact Us</a>
+           </div>
+        </div>
+
+        <div class="center">
+
+            <div class="img" style="background-image: url(../img/I.png);"></div>
+            <div class="dt">
+                <div><h1 class="ti">About Us</h1></div>
+                <h1>
+                    With engineers we stand
+                </h1>
+                <p>
+                    Thinking that sparks new systems, structures and processes.
+                    Innovations that make what could be, into what is.
+                    Engineering is the essential link between thinking and doing. Between idea, and implementation. It’s our means for positive, sustainable change, with an influence on every aspect of modern society.
+                    Engineers identify problems and seek opportunities. Their ability to provide solutions moves us all forward. Our role is to support them.
+                </p>
+
+                <h1>
+                    There for every engineer
+                </h1>
+                <p>
+                    As Egypt’s national body for engineering, we’re the voice and champion of our 120,000-plus members. Providing them with the resources, connections and growth they need to do ethical, competent and high-value work in our communities.
+                   <br>
+                   It’s inspiring promising student engineers. Opening doors for graduates and setting them up for success. Enriching the skill sets of engineering professionals at every stage of their career, helping them learn, discover and fulfil their potential. With esteemed Chartered credentials offering recognition and prospects across the globe.
+                </p>
+                <h1>A trusted ally
+                </h1>
+                <p>Our partnerships across business, government and universities provide these sectors with a network of world-class engineers and assets that make progress possible.
+
+                    Ultimately, what we do is simple. We support the engineering profession in every capacity. Representing it in policy and advocacy, upholding professional standards, nurturing talent and celebrating achievement.
+                    
+                    At Engineers Egypt, we back today’s problem-solvers.
+                    
+                    So they can shape a better tomorrow.</p>
+            </div>
+        </div>
+
+         
+   
+       
+   </div>
+   
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimers</title>
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="main.html">
+
+    <style>
+
+        body{
+    margin: 0;
+    font-family: 'cairo';
+    text-transform: capitalize;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 1fr;
+
+      box-sizing: border-box;
+}
+
+.header{
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.footer{
+    background-color: chocolate;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0 20px;
+    border-bottom: 1px solid #8240241b;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.brand{
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.brand a:hover{
+     filter: brightness(120%);
+     color: #824024;
+     transform: scale(1.5);
+     transition: 0.3s ease;
+}
+
+.list a{
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.list a:hover{
+    transition: 0.3s ease;
+    filter: brightness(120%);
+     color: #824024;
+     
+}
+
+
+.center{
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    border-bottom:1px solid hsla(0, 0%, 42%, 0);
+}
+
+
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img:hover{
+     transform: scale(0.99);
+     transition: 0.5s ease;
+}
+
+.dt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 100px 0 50px;
+    font-size: 10px;
+    max-width: 70%;
+    position: relative;
+}
+
+.dt h1:hover{
+    transition: 0.5s ease;
+    color: hsla(212, 21%, 12%, 0.75);
+    ;
+}
+
+.ti{
+    font-size: 50px;
+    margin-top: 0;
+}
+.ti:hover{
+    transform: scale(1.00);
+    transition: 0.5s ease;
+    /* color: #824024; */
+}
+
+
+
+    </style>
+</head>
+<body>
+        
+        
+    <div class="container">
+
+        <div class="header">
+
+           <div class="brand">
+               <a href="main.html">INANCE
+               </a>
+           </div>
+
+           <div class="list">
+               <a href="main.html">Home</a>
+               <a href="">Services</a>
+               <a class="about" href="about.html" >About</a>
+               <a href="">Contact Us</a>
+           </div>
+        </div>
+
+        <div class="center">
+
+            <div class="img" style="background-image: url(../img/e.png);"></div>
+            <div class="dt">
+                <div><h1 class="ti">Disclaimers</h1></div>
+                <h1>
+                    General disclaimer
+                </h1>
+                <p>
+                    The information on this website is provided for general information only and does not constitute professional advice.
+
+Engineers Egypt has used reasonable endeavours to ensure that material contained on this website was correct at the time the page was created and last modified.
+                </p>
+
+                <h1>
+                    National Engineering Register
+                </h1>
+                <p>
+                    The contents of the National Engineering Register (NER) are provided for information purposes only. Engineers Egypt makes no statement, representation, or warranty about the accuracy, suitability or completeness of any information contained in this register or which is incorporated into it by reference.                   <br>
+
+                    Engineers Egypt disclaims all responsibility and all liability (including, without limitation, liability in negligence) for all expenses, losses, damages and costs you might incur as a result of the information being inaccurate or incomplete in any way for any reason.
+                    <br>
+                    The information on the National Engineering Register is provided on the basis that all persons accessing the register undertake responsibility for assessing the relevance and accuracy of its contents.
+                    <br>
+                    Engineers Egypt disclaims all liability for any damages arising from your access to or use of any information or part thereof on this register.
+                </p>
+             
+            </div>
+        </div>
+
+ 
+
+   </div>
+   
+
+</body>
+</html>
